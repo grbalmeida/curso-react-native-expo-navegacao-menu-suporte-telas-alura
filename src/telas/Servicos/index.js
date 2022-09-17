@@ -31,6 +31,7 @@ export default function Servicos() {
         <Text>Serviços!</Text>
         <FlatList
             data={servicos}
+            removeClippedSubviews={false}
             renderItem={({ item }) => <Item {...item} />}
             keyExtractor={({id}) => String(id)}
         />
