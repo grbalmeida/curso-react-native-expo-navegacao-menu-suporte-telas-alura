@@ -19,6 +19,14 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fea3d16a-d2de-4e27-96f9-7f28c7eb56e9"
+      }
+    },
+    "android": {
+      "package": "com.gribeirodeal.gatito"
     }
   }
 }

@@ -9,3 +9,12 @@ npx expo init gatito
 ```
 npx expo start
 ```
+
+### Gerando APK
+
+1. Adicionar o arquivo eas.json
+2. Rodar o comando abaixo
+
+```
+npx eas build -p android --profile preview
+```
